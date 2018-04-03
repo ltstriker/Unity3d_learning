@@ -140,6 +140,10 @@ public class Side2Controller
         Side2 = UnityEngine.Object.Instantiate(Resources.Load("Prefabs/Side2", typeof(GameObject))) as GameObject;
         count = 0;
     }
+    public void Restart()
+    {
+        this.count = 0;
+    }
 }
 
 public class ObjectMove : MonoBehaviour

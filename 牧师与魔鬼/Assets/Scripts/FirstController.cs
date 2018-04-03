@@ -62,6 +62,7 @@ public class FirstController: MonoBehaviour, ISceneController, IuserAction
     public void Restart()
     {
         Boat.Reset();
+        Coast_left.Restart();
 
         for(int c1=0;c1<6;c1++)
         {
